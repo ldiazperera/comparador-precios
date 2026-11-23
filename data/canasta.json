@@ -1,0 +1,122 @@
+{
+  "generatedAt": "2026-11-23",
+  "moneda": "UYU",
+  "fuentes": {
+    "tienda-inglesa": "Precios publicados de tiendainglesa.com.uy, relevados vía el comparador público gondola.uy (el sitio de TI bloquea acceso automatizado). Arroz: vía Rappi (precio de Rappi, puede incluir recargo).",
+    "fresh-market": "Catálogo online de Disco (disco.com.uy) con la sucursal predeterminada 'Disco Fresh Market Plaza Italia'. Fresh Market (Grupo Disco) no tiene sitio de e-commerce propio."
+  },
+  "items": [
+    {
+      "id": "leche", "nombre": "Leche", "categoria": "lacteos", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Leche UHT Entera Conaprole Larga Vida 1 L", "precio": 79, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/leche-uht-entera-conaprole-larga-vida-1-l.producto?23094,,42" },
+        "fresh-market": { "producto": "Leche entera Conaprole larga vida 1 L", "precio": 78, "unidad": "un", "link": "https://www.disco.com.uy/product/leche-entera-conaprole-larga-vida-1-l/240513" }
+      }
+    },
+    {
+      "id": "agua-mineral", "nombre": "Agua mineral", "categoria": "bebidas", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Agua Mineral Natural Salus sin Gas 2.25 L", "precio": 84, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/agua-mineral-natural-salus-sin-gas-2.25-l.producto?6711,,42" },
+        "fresh-market": { "producto": "Agua Salus sin gas 2.25 L", "precio": 82, "unidad": "un", "link": "https://www.disco.com.uy/product/agua-salus-sin-gas-2-25-l/590415" }
+      }
+    },
+    {
+      "id": "arroz", "nombre": "Arroz", "categoria": "almacen", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Saman Arroz Blanco de Grano Largo Fino (vía Rappi)", "precio": 59.43, "unidad": "un", "link": "https://www.rappi.com.uy/p/saman-arroz-blanco-de-grano-largo-f-16555", "nota": "Precio de Rappi; presentación (1 kg) no verificada en la ficha." },
+        "fresh-market": { "producto": "Arroz blanco Saman 1 kg", "precio": 55, "precioAnterior": 75, "unidad": "un", "link": "https://www.disco.com.uy/product/arroz-blanco-saman-1-kg/523035" }
+      }
+    },
+    {
+      "id": "fideos", "nombre": "Fideos (pasta seca)", "categoria": "almacen", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Fideos Spaghetti N°5 Barilla 500 g", "precio": 161, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/fideos-spaghetti-n5-barilla-500-gr.producto?69054,,42" },
+        "fresh-market": { "producto": "Fideos Barilla Spaghetti N°5 500 g", "precio": 129, "precioAnterior": 155, "unidad": "un", "link": "https://www.disco.com.uy/product/fideos-barilla-spaghetti-n-5-500-g/732212" }
+      }
+    },
+    {
+      "id": "lentejas", "nombre": "Lentejas", "categoria": "almacen", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Lentejas La Abundancia 450 g", "precio": 118, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/lentejas-la-abundancia-450-g.producto?714,,42" },
+        "fresh-market": { "producto": "Lentejas La Abundancia 450 g", "precio": 108, "unidad": "un", "link": "https://www.disco.com.uy/product/lentejas-la-abundancia-450-g/650584" }
+      }
+    },
+    {
+      "id": "refrescos", "nombre": "Refrescos", "categoria": "bebidas", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Coca-Cola Original 1.5 L", "precio": 157, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/coca-cola-original-1.5-l.producto?6012,,42" },
+        "fresh-market": { "producto": "Refresco Coca Cola 1.5 L descartable", "precio": 155, "unidad": "un", "link": "https://www.disco.com.uy/product/refresco-coca-cola-1-5-l-descartable/591225" }
+      }
+    },
+    {
+      "id": "cortes-carne", "nombre": "Cortes de carne (entrecot)", "categoria": "carnes", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Entrecot (kg)", "precio": 719, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/entrecot-kg.producto?1094820,,42" },
+        "fresh-market": { "producto": "Bifes de entrecot Premium (precio por kg)", "precio": 709, "unidad": "kg", "link": "https://www.disco.com.uy/product/bifes-de-entrecot-premium-x-500-g-aprox/334732" }
+      }
+    },
+    {
+      "id": "carne-picada", "nombre": "Carne picada", "categoria": "carnes", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Carne Picada Especial (kg)", "precio": 459, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/carne-picada-especial-kg.producto?1096808,,42" },
+        "fresh-market": { "producto": "Carne Picada Especial (precio por kg)", "precio": 419, "unidad": "kg", "link": "https://www.disco.com.uy/product/carne-picada-especial-x-250-g-aprox/301223" }
+      }
+    },
+    {
+      "id": "manteca", "nombre": "Manteca", "categoria": "lacteos", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Manteca con Sal Conaprole 200 g", "precio": 107, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/manteca-con-sal-conaprole-200-gr.producto?1489,,42" },
+        "fresh-market": { "producto": "Manteca salada Conaprole 200 g", "precio": 104, "unidad": "un", "link": "https://www.disco.com.uy/product/manteca-salada-conaprole-200-g/241142" }
+      }
+    },
+    {
+      "id": "yogurt", "nombre": "Yogurt", "categoria": "lacteos", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Yogur Integral Conaprole Sabor Natural 500 g", "precio": 102, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/yogur-integral-conaprole-sabor-natural-500-gr.producto?327077,,42" },
+        "fresh-market": { "producto": "Yogur Conaprole Integral 500 g", "precio": 85, "precioAnterior": 101, "unidad": "un", "link": "https://www.disco.com.uy/product/yogur-conaprole-integral-500-g/241720" }
+      }
+    },
+    {
+      "id": "lechuga", "nombre": "Lechuga", "categoria": "verduleria", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Lechuga Crespa Blanca (1 un.)", "precio": 49, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/lechuga-crespa-blanca-tienda-inglesa-1-un..producto?1544,,42" },
+        "fresh-market": { "producto": "Lechuga Crespa", "precio": 44, "unidad": "un", "link": "https://www.disco.com.uy/product/lechuga-crespa/400018" }
+      }
+    },
+    {
+      "id": "tomate", "nombre": "Tomate", "categoria": "verduleria", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Tomate Americano a Granel (kg)", "precio": 199, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/tomate-americano-a-granel-kg.producto?23260,,42" },
+        "fresh-market": { "producto": "Tomate americano (precio por kg)", "precio": 199, "unidad": "kg", "link": "https://www.disco.com.uy/product/tomate-americano-aprox-x-200-g/401026" }
+      }
+    },
+    {
+      "id": "papa", "nombre": "Papa", "categoria": "verduleria", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Papa Rosada Granel (kg)", "precio": 89, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/papa-rosada-granel-kg.producto?46567,,42" },
+        "fresh-market": { "producto": "Papa Rosada malla aprox. 1.5 kg (precio por kg)", "precio": 39, "precioAnterior": 79, "unidad": "kg", "link": "https://www.disco.com.uy/product/papa-rosada-malla-aprox-x-1-5-kg/450045" }
+      }
+    },
+    {
+      "id": "boniato", "nombre": "Boniato", "categoria": "verduleria", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Boniato Zanahoria Granel (kg)", "precio": 169, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/boniato-zanahoria-granel-kg.producto?611,,42" },
+        "fresh-market": { "producto": "Boniato Zanahoria (precio por kg)", "precio": 159, "unidad": "kg", "link": "https://www.disco.com.uy/product/boniato-zanahoria-x-300-g/400951" }
+      }
+    },
+    {
+      "id": "porotos", "nombre": "Porotos", "categoria": "almacen", "unidad": "un",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Porotos Negros La Abundancia 500 g", "precio": 117, "unidad": "un", "link": "https://www.tiendainglesa.com.uy/supermercado/porotos-negros-la-abundancia-500-g.producto?4362,,42" },
+        "fresh-market": { "producto": "Porotos negros La Abundancia 500 g", "precio": 107, "unidad": "un", "link": "https://www.disco.com.uy/product/porotos-negros-la-abundancia-500-g/650829" }
+      }
+    },
+    {
+      "id": "zanahoria", "nombre": "Zanahoria", "categoria": "verduleria", "unidad": "kg",
+      "ofertas": {
+        "tienda-inglesa": { "producto": "Zanahoria De La Chacra 1 kg", "precio": 85, "unidad": "kg", "link": "https://www.tiendainglesa.com.uy/supermercado/zanahoria-de-la-chacra-1-kg.producto?347149,,42" },
+        "fresh-market": { "producto": "Zanahoria bolsita 1 kg", "precio": 79, "unidad": "kg", "link": "https://www.disco.com.uy/product/zanahoria-bolsita-1kg/412124" }
+      }
+    }
+  ]
+}

@@ -4,12 +4,14 @@ Prototipo web estático (HTML + CSS + JS puro, sin dependencias) para presentar 
 
 - **Catálogo** con **84 productos con precios REALES** extraídos del sitio oficial de **Tata** (API pública VTEX).
 - **Carrito** con control de cantidades y total.
-- **Comparación** por supermercado: Tata (con datos) y Tienda Inglesa / Kinko (sin datos públicos).
+- **Canasta básica** de 16 productos (`data/canasta.json`) cargada manualmente con precios de **Tienda Inglesa** y **Fresh Market**.
+- **Comparación** por supermercado: solo se compara un supermercado si tiene precio para todos los productos del carrito.
 - **Sugerencia inteligente**: preparada para repartir la compra entre supermercados cuando haya precios de más de uno.
 
 > ⚠️ **Sobre los datos:**
 > - **Tata**: precios reales, extraídos de la API pública VTEX (`tatauy.vtexcommercestable.com.br`). El índice público es parcial (84 productos con precio disponible).
 > - **Tienda Inglesa**: el sitio bloquea el acceso automatizado (Cloudflare WAF, HTTP 403). No se pueden extraer precios sin evadir esa protección, lo cual no se hace. Para incorporarlos se necesita un acuerdo oficial o una API autorizada.
+> - **Canasta básica (`data/canasta.json`)**: precios cargados a mano el 2026-11-23. Tienda Inglesa se relevó vía el comparador público gondola.uy (el arroz, vía Rappi, no tiene presentación verificada). **Fresh Market** no tiene e-commerce propio: se usó el catálogo online de Disco con la sucursal "Disco Fresh Market Plaza Italia" (la que carga por defecto el sitio). Cada oferta guarda el producto concreto elegido y su link. Los precios cambian a diario y pueden diferir por sucursal.
 > - **Kinko**: no publica tienda online con precios (sitio solo corporativo).
 > - El nombre "Compará", el logo y la paleta son **provisionales**.
 
@@ -21,7 +23,8 @@ appSupermercado/
 ├── styles.css        # Identidad de marca y estilos
 ├── app.js            # Catálogo, carrito, comparador y sugerencias
 ├── data/
-│   └── prices.json   # Precios reales (generado por script)
+│   ├── prices.json   # Precios reales de Tata (generado por script)
+│   └── canasta.json  # Canasta básica: Tienda Inglesa y Fresh Market (carga manual)
 └── README.md
 ```
 
