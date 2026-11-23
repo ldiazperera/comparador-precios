@@ -1,0 +1,768 @@
+{
+  "generatedAt": "2026-11-14T13:42:58.874Z",
+  "source": "live",
+  "fuentes": {
+    "tata": "API pública VTEX de Tata (tatauy.vtexcommercestable.com.br) — catálogo parcial del índice público",
+    "tienda-inglesa": "SIN DATOS — el sitio bloquea acceso automatizado (Cloudflare WAF)",
+    "kinko": "SIN DATOS — Kinko no publica tienda online con precios"
+  },
+  "totalProductos": 84,
+  "productos": [
+    {
+      "id": "tata-170250",
+      "nombre": "Leche Descremada Blancanube 1 Lt",
+      "precio": 68,
+      "unidad": "un",
+      "categoria": "lacteos",
+      "categoriaVtex": "/Frescos/Lácteos/Leches/",
+      "link": "https://tatauy.vtexcommercestable.com.br/leche-descremada-blancanube-1-lt/p"
+    },
+    {
+      "id": "tata-171055",
+      "nombre": "Atún Ideal Lomitos Al Natural 170 g",
+      "precio": 69,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Conservas/Conserva de Pescado/",
+      "link": "https://tatauy.vtexcommercestable.com.br/atun-ideal-lomitos-al-natural-170-g-1000580548/p"
+    },
+    {
+      "id": "tata-170822",
+      "nombre": "Pan Blanco Visconti 400 Gr",
+      "precio": 85,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Panificados/Pan de Molde/",
+      "link": "https://tatauy.vtexcommercestable.com.br/pan-blanco-visconti-400-gr/p"
+    },
+    {
+      "id": "tata-171716",
+      "nombre": "Leche Chocolatada Conaprole Colet Dulce De Leche 1 L",
+      "precio": 118,
+      "unidad": "un",
+      "categoria": "lacteos",
+      "categoriaVtex": "/Frescos/Lácteos/Leches/",
+      "link": "https://tatauy.vtexcommercestable.com.br/leche-chocolatada-conaprole-colet-dulce-de-leche-1-l-1000584289/p"
+    },
+    {
+      "id": "tata-171504",
+      "nombre": "Ñoquis Congelados 5 Estrellas 1 Kg",
+      "precio": 146,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Frescos/Pastas y Masas/Pastas Simples/",
+      "link": "https://tatauy.vtexcommercestable.com.br/ñoquis-congelados-5-estrellas-1-kg-1000582830/p"
+    },
+    {
+      "id": "tata-171235",
+      "nombre": "Arañita Feedlot El Rancho 480 g",
+      "precio": 599,
+      "unidad": "kg",
+      "categoria": "carnes",
+      "categoriaVtex": "/Frescos/Carnicería/Carne Vacuna/",
+      "link": "https://tatauy.vtexcommercestable.com.br/arañita-feedlot-el-rancho-480-g-1000582245/p"
+    },
+    {
+      "id": "tata-171054",
+      "nombre": "Galletas De Lentejas La Abundancia 135 g",
+      "precio": 159,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Desayuno/Galletitas Saladas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/galletas-de-lentejas-la-abundancia-135-g-1000582206/p"
+    },
+    {
+      "id": "tata-170416",
+      "nombre": "Dulce De Leche Dietetico La Positiva 420 Gr",
+      "precio": 189,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Desayuno/Dulce de Leche/",
+      "link": "https://tatauy.vtexcommercestable.com.br/dulce-de-leche-dietetico-la-positiva-420-gr/p"
+    },
+    {
+      "id": "tata-817",
+      "nombre": "PAN DE INTEGRAL MARBELLA 580 G",
+      "precio": 144,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Panificados/Pan de Molde/",
+      "link": "https://tatauy.vtexcommercestable.com.br/pan-de-integral-marbella-580-g/p"
+    },
+    {
+      "id": "tata-171507",
+      "nombre": "Molleja El Rancho Kg",
+      "precio": 499,
+      "unidad": "kg",
+      "categoria": "carnes",
+      "categoriaVtex": "/Frescos/Carnicería/Carne Vacuna/",
+      "link": "https://tatauy.vtexcommercestable.com.br/molleja-el-rancho-kg-1000582447/p"
+    },
+    {
+      "id": "tata-171051",
+      "nombre": "Fideos T/Casero Las Acacias Tagliatelle Espinaca 400 g",
+      "precio": 49,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Pastas y salsas/Pastas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/fideos-t-casero-las-acacias-tagliatelle-espinaca-400-g-1000580807/p"
+    },
+    {
+      "id": "tata-171046",
+      "nombre": "Turrón Montevergine De Maní 45 g",
+      "precio": 25,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Golosinas y Chocolates/Turrones/",
+      "link": "https://tatauy.vtexcommercestable.com.br/turron-montevergine-de-mani-45-g-1000580543/p"
+    },
+    {
+      "id": "tata-170421",
+      "nombre": "Barrita Rebel Nuts Triple De Chocolate Almendras Y Coco 40 Gr",
+      "precio": 86,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Golosinas y Chocolates/Barritas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/barrita-rebel-nuts-triple-de-chocolate-almendras-y-coco-40-gr/p"
+    },
+    {
+      "id": "tata-170409",
+      "nombre": "Leche De Coco Equador 400 Ml",
+      "precio": 115,
+      "unidad": "un",
+      "categoria": "lacteos",
+      "categoriaVtex": "/Frescos/Lácteos/Leches/",
+      "link": "https://tatauy.vtexcommercestable.com.br/leche-de-coco-equador-400-ml-1000562674/p"
+    },
+    {
+      "id": "tata-171071",
+      "nombre": "Atún Ideal Desmenuzado Al Natural 170 g",
+      "precio": 59,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Conservas/Conserva de Pescado/",
+      "link": "https://tatauy.vtexcommercestable.com.br/atun-ideal-desmenuzado-al-natural-170-g-1000580572/p"
+    },
+    {
+      "id": "tata-170828",
+      "nombre": "Aerosol Glade Placer Floral Y Futos Rojos 255 Ml",
+      "precio": 116,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Limpieza/Desodorante de Ambiente/",
+      "link": "https://tatauy.vtexcommercestable.com.br/aerosol-glade-placer-floral-y-futos-rojos-255-ml/p"
+    },
+    {
+      "id": "tata-170408",
+      "nombre": "Pilas Alcalinas Philips Aa 4 Ud",
+      "precio": 169,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Ferretería/Adhesivos y Otros/Otros/",
+      "link": "https://tatauy.vtexcommercestable.com.br/pilas-alcalinas-philips-aa-4-ud/p"
+    },
+    {
+      "id": "tata-171704",
+      "nombre": "Mascarilla Dove Uv Repair 250 g",
+      "precio": 505,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Cuidado del Cabello/Tratamiento Capilar/",
+      "link": "https://tatauy.vtexcommercestable.com.br/mascarilla-dove-uv-repair-250-g-1000581369/p"
+    },
+    {
+      "id": "tata-171587",
+      "nombre": "Suavizante De Ropa Comfort Segredos 48 1 L",
+      "precio": 369,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Limpieza/Limpieza de Ropa/Suavizantes/",
+      "link": "https://tatauy.vtexcommercestable.com.br/suavizante-de-ropa-comfort-segredos-48-1-l-1000581171/p"
+    },
+    {
+      "id": "tata-170238",
+      "nombre": "Soporte Cepillo Sanitario Bold Negro",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Accesorios de baño/",
+      "link": "https://tatauy.vtexcommercestable.com.br/soporte-cepillo-sanitario-bold-negro/p"
+    },
+    {
+      "id": "tata-171918",
+      "nombre": "Copa Para Postre Beige Tráslucido 300 ml",
+      "precio": 59,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Cristalería/Vasos y copas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/copa-para-postre-beige-traslucido-300-ml-1000580445/p"
+    },
+    {
+      "id": "tata-171790",
+      "nombre": "Kit Faber Castell Dinosaurio 12 U Ecolapices De Color + 2 U Colores Mixtos",
+      "precio": 249,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/kit-faber-castell-dinosaurio-12-u-ecolapices-de-color-2-u-colores-mixtos-1000525183/p"
+    },
+    {
+      "id": "tata-171591",
+      "nombre": "Kit Cuaderno Playschool A6 Con Lapicera",
+      "precio": 349,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/kit-cuaderno-playschool-a6-con-lapicera-1000562720/p"
+    },
+    {
+      "id": "tata-171579",
+      "nombre": "Cepillo Dental Fresh Up Dolphin",
+      "precio": 50,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Cuidado Oral/Cremas Dentales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cepillo-dental-fresh-up-dolphin-1000582281/p"
+    },
+    {
+      "id": "tata-171466",
+      "nombre": "Alfajor Agua Helada Brownie 90 g",
+      "precio": 85,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Golosinas y Chocolates/Alfajores/",
+      "link": "https://tatauy.vtexcommercestable.com.br/alfajor-agua-helada-brownie-90-g-1000582408/p"
+    },
+    {
+      "id": "tata-170823",
+      "nombre": "Kotex Toalla Femenina Esencial 8 Ud",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Protección Femenina/Toallas Femeninas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/kotex-toalla-femenina-esencial-8-ud/p"
+    },
+    {
+      "id": "tata-170477",
+      "nombre": "Protector Solar Villeneuve 60 FPS Baby 120 ml",
+      "precio": 1095,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Protectores Solares/",
+      "link": "https://tatauy.vtexcommercestable.com.br/protector-solar-villeneuve-60-fps-baby-120-ml-1000569382/p"
+    },
+    {
+      "id": "tata-170102",
+      "nombre": "Elvive Dream Liso Cpp 300 Ml",
+      "precio": 747,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Cuidado del Cabello/Tratamiento Capilar/",
+      "link": "https://tatauy.vtexcommercestable.com.br/elvive-dream-liso-cpp-300-ml/p"
+    },
+    {
+      "id": "tata-19040",
+      "nombre": "Comedor Para Mascota",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Mascotas/Accesorios/",
+      "link": "https://tatauy.vtexcommercestable.com.br/comedor-para-mascota-1000156243/p"
+    },
+    {
+      "id": "tata-171792",
+      "nombre": "Kit Faber Castell Unicornio 12 U Ecolapices De Color + 2 U Colores Mixtos",
+      "precio": 249,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/kit-faber-castell-unicornio-12-u-ecolapices-de-color-2-u-colores-mixtos-1000525184/p"
+    },
+    {
+      "id": "tata-170825",
+      "nombre": "Silla Reclinable Mor 6 Posiciones Aluminio Summer Azul",
+      "precio": 1999,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Aire Libre/Sillas y mesas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/silla-reclinable-mor-6-posiciones-aluminio-summer-azul-1000569642/p"
+    },
+    {
+      "id": "tata-170241",
+      "nombre": "Pañal Huggies Natural Care Xxg Ahorro 50 Ud + Th 48 Ud",
+      "precio": 1407,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Bebés/Cuidado del Bebé/Pañales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/pañal-huggies-natural-care-xxg-ahorro-50-ud---th-48-ud/p"
+    },
+    {
+      "id": "tata-170134",
+      "nombre": "Desodorante En Aerosol Axe Bs Cherry Spritz 150 Ml",
+      "precio": 279,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Cuidado Corporal/Desodorantes/",
+      "link": "https://tatauy.vtexcommercestable.com.br/desodorante-en-aerosol-axe-bs-cherry-spritz-150-ml/p"
+    },
+    {
+      "id": "tata-170100",
+      "nombre": "Candado De Hierro Wadfow 50 Mm",
+      "precio": 179,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Ferretería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/candado-de-hierro-wadfow-50-mm/p"
+    },
+    {
+      "id": "tata-171953",
+      "nombre": "Lunchera Wilson Térmica",
+      "precio": 890,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Mochilas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/lunchera-wilson-termica-1000584298/p"
+    },
+    {
+      "id": "tata-171917",
+      "nombre": "Vaso Keep Te 450 ml",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Artículos de mesa/Botellas y Vasos para Llevar/",
+      "link": "https://tatauy.vtexcommercestable.com.br/vaso-keep-te-450-ml-1000460697/p"
+    },
+    {
+      "id": "tata-171837",
+      "nombre": "Marcador Fino Caballito 12 U",
+      "precio": 199,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/marcador-fino-caballito-12-u-1000525146/p"
+    },
+    {
+      "id": "tata-171795",
+      "nombre": "Marcadores Faber Castell Dinosaurio 10 U +3 U Metalicos",
+      "precio": 239,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/marcadores-faber-castell-dinosaurio-10-u--3-u-metalicos-1000587776/p"
+    },
+    {
+      "id": "tata-171793",
+      "nombre": "Kit Faber Castell Glimmer 2 U Eco Lapices + 1 Sacapuntas + 1 Goma De Borrar",
+      "precio": 199,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/kit-faber-castell-glimmer-2-u-eco-lapices-1-sacapuntas-1-goma-de-borrar-1000587308/p"
+    },
+    {
+      "id": "tata-171791",
+      "nombre": "Set Escolar Maped Neon 5 Pcs",
+      "precio": 249,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-escolar-maped-neon-5-pcs-1000584241/p"
+    },
+    {
+      "id": "tata-171789",
+      "nombre": "Mochila Disney Stitch Con Carro 40 cm",
+      "precio": 1490,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Mochilas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/mochila-disney-stitch-con-carro-40-cm-1000525125/p"
+    },
+    {
+      "id": "tata-171592",
+      "nombre": "Cuaderno A6 Playschool Con Diseño",
+      "precio": 199,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Encuadernados/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cuaderno-a6-playschool-con-diseno-1000562716/p"
+    },
+    {
+      "id": "tata-171590",
+      "nombre": "Set De Cuaderno Playschool Con Accesorios",
+      "precio": 249,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Encuadernados/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-de-cuaderno-playschool-con-accesorios-1000562704/p"
+    },
+    {
+      "id": "tata-171588",
+      "nombre": "Cuadernola 80 Hojas - Special Day - Varios Diseños",
+      "precio": 149,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Encuadernados/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cuadernola-80-hojas-special-day-1000569885/p"
+    },
+    {
+      "id": "tata-171583",
+      "nombre": "Set De Libreta Playschool Rosado Con Stickers",
+      "precio": 249,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Encuadernados/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-de-libreta-playschool-rosado-con-stickers-1000562742/p"
+    },
+    {
+      "id": "tata-171581",
+      "nombre": "Cartuchera Playschool Con Colgantes",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Cartucheras/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cartuchera-playschool-con-colgantes-1000562724/p"
+    },
+    {
+      "id": "tata-171578",
+      "nombre": "Cartuchera Playschool Azul Floreada",
+      "precio": 299,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Cartucheras/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cartuchera-playschool-azul-floreada-1000562740/p"
+    },
+    {
+      "id": "tata-171472",
+      "nombre": "Sombrilla Básica 180 cm Varios Colores",
+      "precio": 490,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Aire Libre/Carpas, gazebos y otros/",
+      "link": "https://tatauy.vtexcommercestable.com.br/sombrilla-basica-180-cm-varios-colores-1000558805/p"
+    },
+    {
+      "id": "tata-171464",
+      "nombre": "Masa Para Moldear Royal Naranja Claro 120 g",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/masa-para-moldear-royal-naranja-claro-120-g-1000581407/p"
+    },
+    {
+      "id": "tata-171361",
+      "nombre": "Caja Organizadora Sanremo Plástico Apilable L4P3 746 ml",
+      "precio": 89,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Organización/Cajas, Canastos y Otros/",
+      "link": "https://tatauy.vtexcommercestable.com.br/caja-organizadora-sanremo-plastico-apilable-l4p3-746-ml-1000575110/p"
+    },
+    {
+      "id": "tata-171359",
+      "nombre": "Termo Hudson Acero Inoxidable 1 L Verde",
+      "precio": 999,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Mates, termos y bombillas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/termo-hudson-acero-inoxidable-1-l-verde-1000577384/p"
+    },
+    {
+      "id": "tata-171358",
+      "nombre": "Almohada Para Viaje Panda 25X27 cm",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Textil Hogar/",
+      "link": "https://tatauy.vtexcommercestable.com.br/almohada-para-viaje-panda-25x27-cm-1000569131/p"
+    },
+    {
+      "id": "tata-171355",
+      "nombre": "Cubetera Para Hielo Sanremo Flexible",
+      "precio": 169,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Plásticos y Descartables/Plásticos/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cubetera-para-hielo-flexible-sanremo-1000575113/p"
+    },
+    {
+      "id": "tata-171221",
+      "nombre": "3 Camionetas A Fricción",
+      "precio": 599,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Vehículos y Pistas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/3-camionetas-a-friccion-1000529092/p"
+    },
+    {
+      "id": "tata-171219",
+      "nombre": "Bloque Maxi 30 Piezas En Vagón",
+      "precio": 599,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Didáctico/",
+      "link": "https://tatauy.vtexcommercestable.com.br/bloque-maxi-30-piezas-en-vagon-1000529217/p"
+    },
+    {
+      "id": "tata-171216",
+      "nombre": "Set Camiones De Construcción - Rueda Libre",
+      "precio": 799,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Vehículos y Pistas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-camiones-de-construccion-rueda-libre-1000529101/p"
+    },
+    {
+      "id": "tata-171214",
+      "nombre": "Burbujero A Pila Con Luz Wanna Bubbles",
+      "precio": 349,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/burbujero-a-pila-con-luz-wanna-bubbles-1000581405/p"
+    },
+    {
+      "id": "tata-171213",
+      "nombre": "Escudo De Agua Marvel Eolo",
+      "precio": 699,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Piscinas, Inflables Y Accesorios/",
+      "link": "https://tatauy.vtexcommercestable.com.br/escudo-de-agua-marvel-eolo-1000581368/p"
+    },
+    {
+      "id": "tata-171209",
+      "nombre": "Bloques Pirata 120 Piezas",
+      "precio": 199,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Didáctico/",
+      "link": "https://tatauy.vtexcommercestable.com.br/bloques-pirata-120-piezas-1000529222/p"
+    },
+    {
+      "id": "tata-171208",
+      "nombre": "Burbujero A Pila Burbuja Gigante Wanna Bubblesbur",
+      "precio": 799,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/burbujero-a-pila-burbuja-gigante-wanna-bubblesbur-1000581393/p"
+    },
+    {
+      "id": "tata-171207",
+      "nombre": "Beep Boop Mini Juego Interactivo Eolo",
+      "precio": 1790,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/beep-boop-mini-juego-interactivo-eolo-1000581374/p"
+    },
+    {
+      "id": "tata-171206",
+      "nombre": "Set 3 Dinos",
+      "precio": 459,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Figuras y Animales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-3-dinos-1000529210/p"
+    },
+    {
+      "id": "tata-171052",
+      "nombre": "Aderezo Hellmanns Picante Doypack 250 g",
+      "precio": 109,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Aceites y Aderezos/Salsas Especiales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/aderezo-hellmanns-picante-doypack-250-g-1000580767/p"
+    },
+    {
+      "id": "tata-170916",
+      "nombre": "Guia Navideña Verde 2Mt",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Navidad/",
+      "link": "https://tatauy.vtexcommercestable.com.br/guia-navideña-verde-2mt/p"
+    },
+    {
+      "id": "tata-170915",
+      "nombre": "Arbol Nevado Mini 27 Cm",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Navidad/",
+      "link": "https://tatauy.vtexcommercestable.com.br/arbol-nevado-mini-27-cm/p"
+    },
+    {
+      "id": "tata-170914",
+      "nombre": "Guirnalda Pino 27 M 180 Ramas",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Navidad/",
+      "link": "https://tatauy.vtexcommercestable.com.br/guirnalda-pino-27-m-180-ramas/p"
+    },
+    {
+      "id": "tata-170910",
+      "nombre": "Arbol Navideño 45 Cm",
+      "precio": 99,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Navidad/",
+      "link": "https://tatauy.vtexcommercestable.com.br/arbol-navideño-45-cm/p"
+    },
+    {
+      "id": "tata-170909",
+      "nombre": "Arbol Con Accesorios 65 Cm",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Navidad/",
+      "link": "https://tatauy.vtexcommercestable.com.br/arbol-con-accesorios-65-cm/p"
+    },
+    {
+      "id": "tata-170821",
+      "nombre": "Budin 100 Ducados Limon Y Semillas De Amapola 300 Gr",
+      "precio": 149,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Almacén/Panificados/Budines y Pan Dulce/",
+      "link": "https://tatauy.vtexcommercestable.com.br/budin-100-ducados-limon-y-semillas-de-amapola-300-gr/p"
+    },
+    {
+      "id": "tata-170419",
+      "nombre": "Set Creativo Huevo Grande Stitch Royal",
+      "precio": 799,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-creativo-huevo-grande-stitch-royal/p"
+    },
+    {
+      "id": "tata-170407",
+      "nombre": "Colonia Hipolargenica Gotias De Ternura Bebe&Co 200 Ml",
+      "precio": 357,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Perfumería/Cuidado Corporal/Perfumes y Fragancias/",
+      "link": "https://tatauy.vtexcommercestable.com.br/colonia-hipolargenica-gotias-de-ternura-bebe-co-200-ml/p"
+    },
+    {
+      "id": "tata-170406",
+      "nombre": "Serrucho De Mano Wadfow",
+      "precio": 259,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Herramientas/Herramientas Manuales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/serrucho-de-mano-wadfow/p"
+    },
+    {
+      "id": "tata-170404",
+      "nombre": "Set X 8 Llaves Combinadas Wadfow",
+      "precio": 699,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Herramientas/Herramientas Manuales/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-x-8-llaves-combinadas-wadfow/p"
+    },
+    {
+      "id": "tata-170402",
+      "nombre": "Set X 3 Mamaderas Anatómicas Kuka Blanco",
+      "precio": 990,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Bebés/Puericultura/",
+      "link": "https://tatauy.vtexcommercestable.com.br/set-mamaderas-anatomicas-kuka-blanco-1000561303/p"
+    },
+    {
+      "id": "tata-170235",
+      "nombre": "Organizador Con Separadores Bold Blanco",
+      "precio": 199,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Hogar y Bazar/Organización/Cajas, Canastos y Otros/",
+      "link": "https://tatauy.vtexcommercestable.com.br/organizador-con-separadores-bold-blanco/p"
+    },
+    {
+      "id": "tata-19575",
+      "nombre": "T. XXL - Remera Polo Roja M/C P/Dama C/Logo",
+      "precio": 0.01,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Textil/Ropa Damas/Remeras y Camisas/",
+      "link": "https://tatauy.vtexcommercestable.com.br/t--xxl---remera-polo-roja-m-c-p-dama-c-logo/p"
+    },
+    {
+      "id": "tata-18079",
+      "nombre": "Tijera De Picos Playschool Varios Colores",
+      "precio": 29,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/tijera-de-picos-playschool-varios-colores/p"
+    },
+    {
+      "id": "tata-12837",
+      "nombre": "Puzzles Varios Modelos",
+      "precio": 399,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Juegos de Rol/",
+      "link": "https://tatauy.vtexcommercestable.com.br/puzzles-varios-modelos/p"
+    },
+    {
+      "id": "tata-12832",
+      "nombre": "Monedero Juvenil Varios Diseños",
+      "precio": 59,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Juguetería/Muñecas y Accesorios/",
+      "link": "https://tatauy.vtexcommercestable.com.br/monedero-juvenil-varios-diseños/p"
+    },
+    {
+      "id": "tata-11881",
+      "nombre": "Papel Celofan Tabare Varios Colores",
+      "precio": 79,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/papel-celofan-tabare-varios-colores/p"
+    },
+    {
+      "id": "tata-11343",
+      "nombre": "Lápiz con goma varios diseños",
+      "precio": 19,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/lapiz-con-goma-varios-diseños/p"
+    },
+    {
+      "id": "tata-11162",
+      "nombre": "Cuaderno Espiral Tapa Dura 80 Hojas Varios Diseños",
+      "precio": 299,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Encuadernados/",
+      "link": "https://tatauy.vtexcommercestable.com.br/cuaderno-espiral-tapa-dura-80-hojas-varios-disenos-1000046207/p"
+    },
+    {
+      "id": "tata-11068",
+      "nombre": "Papel Cometa Tabare Varios Colores",
+      "precio": 79,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/papel-cometa-tabare-varios-colores/p"
+    },
+    {
+      "id": "tata-9615",
+      "nombre": "Goma Eva Formitas Autoadhesivas Varios Modelo",
+      "precio": 79,
+      "unidad": "un",
+      "categoria": "almacen",
+      "categoriaVtex": "/Juguetería y Librería/Librería/Útiles/",
+      "link": "https://tatauy.vtexcommercestable.com.br/goma-eva-formitas-autoadhesivas-varios-modelo/p"
+    }
+  ]
+}

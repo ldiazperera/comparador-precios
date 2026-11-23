@@ -1,0 +1,613 @@
+/* ============================================================
+   Compará — Prototipo comparador de supermercados
+   Identidad de marca PROVISIONAL (para presentación a cliente)
+
+   Paleta: combinación inspirada en los supermercados de
+   referencia (Tata, Tienda Inglesa, Kinko), pero NO idéntica
+   a ninguna de ellas:
+   - Verde azulado (teal) profundo  -> color primario
+   - Naranja cálido                 -> acento / ofertas
+   - Crema suave                    -> fondos
+   ============================================================ */
+
+:root {
+  /* --- Paleta de marca --- */
+  --color-primary: #0f766e;        /* teal profundo */
+  --color-primary-dark: #115e59;
+  --color-primary-light: #5eead4;
+  --color-accent: #f97316;         /* naranja cálido */
+  --color-accent-dark: #ea580c;
+  --color-bg: #fdf8f1;             /* crema suave */
+  --color-surface: #ffffff;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e7e0d4;
+  --color-success: #16a34a;
+  --color-danger: #dc2626;
+
+  /* --- Supermercados (badges) --- */
+  --sm-tata: #e11d48;              /* rojo rosado */
+  --sm-tienda-inglesa: #1d4ed8;    /* azul */
+  --sm-kinko: #ca8a04;             /* amarillo dorado */
+
+  /* --- Tipografía --- */
+  --font-family: 'Nunito', system-ui, -apple-system, sans-serif;
+
+  /* --- Espaciado / radios --- */
+  --radius: 14px;
+  --radius-sm: 9px;
+  --shadow: 0 2px 10px rgba(31, 41, 55, 0.07);
+  --shadow-lg: 0 6px 24px rgba(31, 41, 55, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+}
+
+img, svg { vertical-align: middle; }
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ================= HEADER ================= */
+.header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand-logo { display: flex; }
+
+.brand-text { display: flex; flex-direction: column; }
+
+.brand-name {
+  font-size: 1.45rem;
+  font-weight: 900;
+  color: var(--color-primary);
+  letter-spacing: -0.5px;
+}
+
+.brand-tagline {
+  font-size: 0.72rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ================= BOTONES ================= */
+.btn {
+  font-family: inherit;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: background 0.15s ease, transform 0.1s ease, box-shadow 0.15s ease;
+}
+
+.btn:active { transform: scale(0.97); }
+
+.btn-primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.btn-primary:hover { background: var(--color-primary-dark); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--color-text-muted);
+  border: 1px solid var(--color-border);
+}
+
+.btn-ghost:hover {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* ================= BANNER DEMO ================= */
+.demo-banner {
+  background: linear-gradient(90deg, var(--color-accent), var(--color-accent-dark));
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 7px 0;
+  text-align: center;
+}
+
+/* ================= AVISO DE DATOS ================= */
+.data-notice {
+  background: rgba(15, 118, 110, 0.06);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  padding: 8px 0;
+  text-align: center;
+}
+
+/* ================= LAYOUT PRINCIPAL ================= */
+.main-layout {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 24px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  align-items: start;
+}
+
+/* ================= TOOLBAR CATÁLOGO ================= */
+.catalog-toolbar {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  color: var(--color-text-muted);
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  background: transparent;
+}
+
+.category-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 7px 14px;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.chip:hover { border-color: var(--color-primary); color: var(--color-primary); }
+
+.chip.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* ================= GRILLA DE PRODUCTOS ================= */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 16px;
+}
+
+.product-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: var(--shadow);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.product-card:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+
+.product-emoji {
+  font-size: 2rem;
+  line-height: 1;
+}
+
+.product-name {
+  font-weight: 800;
+  font-size: 0.98rem;
+}
+
+.product-unit {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+/* Precio principal (Tata) */
+.product-price-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-bg);
+  border-radius: 6px;
+  padding: 5px 8px;
+  font-size: 0.85rem;
+}
+
+.product-price-main .sm-name { font-weight: 700; color: var(--sm-tata); }
+
+.product-price-main .price { font-weight: 900; }
+
+/* Total del carrito */
+.cart-total {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: rgba(15, 118, 110, 0.08);
+  border-radius: var(--radius-sm);
+  font-weight: 900;
+  font-size: 1.05rem;
+  color: var(--color-primary);
+  text-align: right;
+}
+
+/* Etiqueta "sin datos" en el comparador */
+.nodata-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  font-style: italic;
+  padding-left: 10px;
+}
+
+/* Tabla de precios por supermercado */
+.product-prices {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.price-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.82rem;
+  padding: 3px 8px;
+  border-radius: 6px;
+  background: var(--color-bg);
+}
+
+.price-row .sm-name { font-weight: 700; }
+
+.price-row.best {
+  background: rgba(22, 163, 74, 0.12);
+  color: var(--color-success);
+}
+
+.price-row.best .sm-name::after {
+  content: ' ⭐';
+  font-size: 0.75rem;
+}
+
+.product-actions {
+  margin-top: auto;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.btn-add {
+  flex: 1;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 9px 0;
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 0.88rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.btn-add:hover { background: var(--color-accent-dark); }
+
+/* ================= SIDEBAR ================= */
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  position: sticky;
+  top: 76px;
+}
+
+.sidebar-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 18px;
+  box-shadow: var(--shadow);
+}
+
+.sidebar-title {
+  margin: 0 0 12px;
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+/* ================= CARRITO ================= */
+.cart-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+}
+
+.cart-item-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.cart-item-name {
+  font-weight: 800;
+  font-size: 0.88rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cart-item-price {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.qty-controls {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.qty-btn {
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  font-family: inherit;
+  font-weight: 900;
+  cursor: pointer;
+  color: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qty-btn:hover { border-color: var(--color-primary); }
+
+.qty-value {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+
+.cart-item-remove {
+  background: none;
+  border: none;
+  color: var(--color-danger);
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 4px;
+}
+
+/* ================= COMPARADOR ================= */
+.compare-hint, .smart-hint {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.compare-results { display: flex; flex-direction: column; gap: 10px; }
+
+.compare-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.compare-sm {
+  font-weight: 800;
+  font-size: 0.88rem;
+  min-width: 118px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.sm-dot {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.compare-bar-track {
+  flex: 1;
+  height: 22px;
+  background: var(--color-bg);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.compare-bar {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.4s ease;
+  min-width: 4px;
+}
+
+.compare-total {
+  font-weight: 900;
+  font-size: 0.9rem;
+  min-width: 86px;
+  text-align: right;
+}
+
+.compare-row.winner .compare-total { color: var(--color-success); }
+
+.best-option {
+  margin-top: 14px;
+  padding: 12px 14px;
+  background: rgba(22, 163, 74, 0.1);
+  border: 1px dashed var(--color-success);
+  border-radius: var(--radius-sm);
+}
+
+.best-option-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+}
+
+.best-option-value {
+  font-size: 1.15rem;
+  font-weight: 900;
+  color: var(--color-success);
+}
+
+/* ================= SUGERENCIA INTELIGENTE ================= */
+.smart-suggestion { display: flex; flex-direction: column; gap: 10px; }
+
+.split-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--color-bg);
+  border-radius: var(--radius-sm);
+  padding: 9px 12px;
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.split-item .sm-dot { flex-shrink: 0; }
+
+.split-amount { margin-left: auto; font-weight: 900; }
+
+.split-savings {
+  padding: 12px 14px;
+  background: rgba(15, 118, 110, 0.08);
+  border: 1px dashed var(--color-primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
+.split-savings strong {
+  color: var(--color-primary);
+  font-size: 1.05rem;
+}
+
+/* ================= ESTADOS VACÍOS ================= */
+.empty-state {
+  color: var(--color-text-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px 8px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 20px 0;
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.footer a { color: var(--color-primary); font-weight: 700; }
+
+/* ================= RESPONSIVE ================= */
+@media (max-width: 960px) {
+  .main-layout { grid-template-columns: 1fr; }
+
+  .sidebar {
+    position: static;
+    order: -1;
+  }
+
+  .cart-list { max-height: 200px; }
+}
+
+@media (max-width: 520px) {
+  .brand-tagline { display: none; }
+
+  .btn-ghost { display: none; }
+
+  .product-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); }
+
+  .compare-sm { min-width: 96px; font-size: 0.8rem; }
+}
